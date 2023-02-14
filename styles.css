@@ -1,0 +1,82 @@
+
+/*
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+*/
+
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.post {
+    background: white;
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.post-header {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.HTML5 {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0;
+    
+}
+
+.person {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.icon-html5 {
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+.icon-elipsis {
+    margin-top: 7px;
+    margin-left: auto;
+}
+
+.name {
+    display:flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+}
+
+.image {
+    width: 400px;
+    height : 250px;
+}
+
+img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+p {
+    font-size: small;
+}
+
+#bookmark {
+    margin-left: 276px;
+}
+
+.text {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
